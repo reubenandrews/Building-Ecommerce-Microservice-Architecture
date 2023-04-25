@@ -24,7 +24,7 @@ router.post("/addproduct", async (req, res) => {
     pquantity: req.body.pquantity,
     pprice: req.body.pprice,
   });
-  console.log(product);
+  //console.log(product);
 
   const data = await product.save();
 
