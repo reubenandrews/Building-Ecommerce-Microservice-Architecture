@@ -29,7 +29,7 @@ router.post("/placeorder", async (req, res) => {
   );
 
   if (data) {
-    // console.log(data);
+    console.log(data);
     res.status(200).send("Success");
   } else {
     res.status(500).send("Error");
