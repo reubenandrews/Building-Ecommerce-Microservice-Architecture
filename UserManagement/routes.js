@@ -8,7 +8,7 @@ const User = require("./user");
 //Connect to db
 mongoose
   .connect(
-    "mongodb+srv://admin:<password>@cluster0.1dgvvjf.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://admin:root@cluster0.1dgvvjf.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("Connected to DB");
